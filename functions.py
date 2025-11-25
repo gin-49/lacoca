@@ -2,6 +2,8 @@ import math
 
 # Funcion para el calculo de la kinematica inversa del scara
 
+# TODO Implementar Forward Kinematics para Visualizacion, Transformar SVG a CSV y a Angulos, Generar trayectorias, Calculos de Dinamica torque velocidad,etc?, GUI en tkinter
+
 
 def ik_scara(Xc, Yc, d, l1, l2, l3, l4):
     # Ubicacion de los motores
@@ -28,7 +30,7 @@ def ik_scara(Xc, Yc, d, l1, l2, l3, l4):
         if alpha1 and beta2 > 0:
             return theta1, theta2
         else:
-            return None, None
+            return "Posición Inalcanzable"
 
     # Manejo de Errores
     except ValueError:

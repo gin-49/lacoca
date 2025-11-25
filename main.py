@@ -1,3 +1,5 @@
+# Code que se va subir al ESP32
+
 from stepper import Stepper
 import time
 
