@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib>=3.10.7",
     "mpremote>=1.26.1",
     "numpy>=2.3.5",
+    "pyserial>=3.5",
     "scipy>=1.16.3",
 ]

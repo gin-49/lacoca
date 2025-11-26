@@ -256,6 +256,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "mpremote" },
     { name = "numpy" },
+    { name = "pyserial" },
     { name = "scipy" },
 ]
 
@@ -265,6 +266,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "mpremote", specifier = ">=1.26.1" },
     { name = "numpy", specifier = ">=2.3.5" },
+    { name = "pyserial", specifier = ">=3.5" },
     { name = "scipy", specifier = ">=1.16.3" },
 ]
 
