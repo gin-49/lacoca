@@ -1,8 +1,8 @@
 1) ik done
-1.1 ) implementar configuraciones ++ +- -+ --
-1.2 ) work space
+1.1 ) implementar configuraciones ++ +- -+ -- done
+1.2 ) work space done
 2) fk done
-3) implementar ik a los 2 motores con csv
+3) implementar ik a los 2 motores con csv done
 4) animar la fk
 5) transformar svg a csv a angulos
 6) generar trayectorias
