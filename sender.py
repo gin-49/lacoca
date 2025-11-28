@@ -16,6 +16,8 @@ points = csv_to_theta(
 
 
 for t1, t2 in points:
+    t1 = round(t1, 2)
+    t2 = round(t2, 2)
     Esp.send_angles(t1, t2)
     print(f"angulos: {t1}, {t2}")
 
